@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/dark-angel.jpg" width="280" alt="Dark-Angel"/>
+<img src="./1780107634402.jpg" width="280" alt="Dark-Angel"/>
 
 # ⚡ Dark-Angel ⚡
 
