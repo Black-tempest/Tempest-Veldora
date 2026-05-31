@@ -41,4 +41,3 @@ Il répond automatiquement à tes messages, tourne 24h/24, et s'adapte aussi bie
 *by Veldora Tempest*
 
 </div>
-￼Enter
