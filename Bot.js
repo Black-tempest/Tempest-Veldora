@@ -2,6 +2,7 @@ const login = require("fca-unofficial");
 const fs = require("fs-extra");
 const path = require("path");
 const config = require("./config.json");
+const box = require("./utils/box");
 
 const appstatePath = path.join(__dirname, "appstate.json");
 
@@ -25,6 +26,14 @@ login({ appState: appstate }, (err, api) => {
     selfListen: false,
     logLevel: "error"
   });
+
+  const originalSendMessage = api.sendMessage.bind(api);
+  api.sendMessage = (message, threadID, callback) => {
+    if (typeof message === "string") {
+      message = box(message);
+    }
+    return originalSendMessage(message, threadID, callback);
+  };
 
   const commands = new Map();
   const commandsPath = path.join(__dirname, "commands");
@@ -56,4 +65,3 @@ login({ appState: appstate }, (err, api) => {
     }
   });
 });
-
