@@ -1,0 +1,80 @@
+{
+  "facebookAccount": {
+    "email": "",
+    "password": "",
+    "2FASecret": "",
+    "appState": "",
+    "proxy": null
+  },
+  "prefix": "-",
+  "language": "fr",
+  "nickNameBot": "⚡Dark-Angel⚡",
+  "adminBot": [
+    ""
+  ],
+  "adminOnly": {
+    "enable": false,
+    "ignoreCommand": []
+  },
+  "whiteListMode": {
+    "enable": false,
+    "whiteListIds": []
+  },
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": []
+  },
+  "database": {
+    "type": "sqlite",
+    "uriMongodb": "",
+    "autoSyncWhenStart": false
+  },
+  "timeZone": "America/Port-au-Prince",
+  "autoRestart": {
+    "time": null
+  },
+  "autoRefreshFbstate": true,
+  "autoReloginWhenChangeAccount": true,
+  "restartListenMqtt": {
+    "enable": true,
+    "timeRestart": 1800000,
+    "delayAfterStopListening": 2000
+  },
+  "hideNotiMessage": {
+    "commandNotFound": false,
+    "adminOnly": false,
+    "threadBanned": false,
+    "userBanned": false
+  },
+  "logEvents": {
+    "disableAll": false,
+    "message": true,
+    "message_reaction": true,
+    "message_unsend": true,
+    "message_reply": true,
+    "event": true,
+    "read_receipt": false,
+    "typ": false,
+    "presence": false
+  },
+  "optionsFca": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": true,
+    "logLevel": "error",
+    "selfListen": false,
+    "selfListenEvent": true,
+    "autoMarkDelivery": false,
+    "autoReconnect": false
+  },
+  "serverUptime": {
+    "enable": true,
+    "port": 3000
+  },
+  "dashBoard": {
+    "enable": false,
+    "port": 9999
+  }
+}
+
