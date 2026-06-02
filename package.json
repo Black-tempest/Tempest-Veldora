@@ -14,9 +14,8 @@
     "express": "^4.18.2",
     "axios": "^1.6.0",
     "dotenv": "^16.3.1",
-    "fca-unofficial": "^1.7.1",
-    "fs-extra": "^11.1.1",
-    "path": "^0.12.7"
+    "fca-unofficial": "*",
+    "fs-extra": "^11.1.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
